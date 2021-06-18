@@ -1,2 +1,2 @@
 # AulasDevschool
-Meus exercicios 
+Meus exercicios da aula de java
