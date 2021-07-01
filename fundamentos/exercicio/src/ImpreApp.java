@@ -31,13 +31,13 @@ public class ImpreApp {
 		SimpleDateFormat formatador = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss"); 
 		String dataFormatada = formatador.format(pedido.getData());
 		sb.append(String.format("%-40s CCF:%06d CCO:%06d",dataFormatada, pedido.getCcf(), pedido.getCoo()) );
-		
-		
 		sb.append("\n----------------------------------------------------------------\n");
+		sb.append(String.format("%-35s%10s%10s%10s\n", "ITEM","QUANT", "R$ UNIT", "R$ TOTAL"));
 		
+		sb.append(String.format("%-58s %.2f\n","TOTAL", pedido.getValorTotal()));
+		sb.append("\n----------------------------------------------------------------\n");
 		List<PedidoItem> itens = pedido.getItens();
 		
-		sb.append(String.format("%-35s%10s%10s%10s\n", "ITEM","QUANT", "R$ UNIT", "R$ TOTAL"));
 		
 		for(PedidoItem uItem: itens) {
 			String q = String.format("%.2f",uItem.getQuantidade());
@@ -47,11 +47,11 @@ public class ImpreApp {
 			sb.append(String.format("%-35s%10s%10s%10s\n",uItem.getProduto().getTitulo(),  q,vu,vt));
 			
 		}
-		sb.append("\n----------------------------------------------------------------\n");
 		
-		sb.append(String.format("%-58s %.2f\n","TOTAL", pedido.getValorTotal()));
+	}	
+		System.out.println(sb.toString());
 		return sb.toString();
-	}
+	
 
 
 
