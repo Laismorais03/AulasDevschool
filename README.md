@@ -1,4 +1,10 @@
 ## Atividades
-1.Atividade
-*Impressão de cupom*
-2.
+
+**Atividade 1**
+``Impressão do cupom``
+
+**Atividade 2**
+``Aplicações com JDBC``
+
+**Atividade 3**
+`` Pesquisa sobre Java Collections (List)``
