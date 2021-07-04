@@ -114,12 +114,7 @@ String toString():Retorna uma representação de string do vetor.
 
 **Exemplo**
 
-
-
-
-
-
-
+![Screenshot](vector.png)
 **Resultado**
 ``Vector v1 Contents:[]
 Vector v2 Contents:[10, 20, 30]
