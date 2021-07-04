@@ -13,8 +13,18 @@
 
 A ArrayList é uma classe que implementa a interface ``List`` , esta classe tem seus objetos arrays dinâmicos. O ArrayList implementa todos os métodos List e permite todos elementos até mesmo os nulos. Os objetos desta classe têm uma capacidade, que inicialmente igual ao tamanho, mas aumenta à medida que novos elementos são adicionados, ela não está sincronizado então varias unidades de controle de fluxo sequencial pode ser processada no sistema operacional.
 
+**Metodos utéis**
+- Método add – Adiciona um elemento no final do ArrayList.
+- Método clear – Remove todos os elementos da estrutura.
+- Método contains – Verifica se o ArrayList contém um elemento especificado, e retorna true em caso positivo, ou false caso contrário.- 
+- Método get – Retorna o item em uma posição de índice especificada.
+- Método indexOf – Retorna a posição de índice da primeira ocorrência de um elemento especificado.
+- Método remove – Remove a primeira ocorrência de um valor especificado ou de um elemento em um índice.
+- Método size – Informa o número de elementos que estão armazenados na estrutura.
+- Método trimToSize – Ajusta a capacidade do ArrayList de acordo com o número de elementos armazenados no momento.
 
-
+**Exemplo**
+``
 
 
 
