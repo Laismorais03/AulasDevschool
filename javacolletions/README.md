@@ -64,9 +64,28 @@ Telas uno ford fusca``
 ``Qual carro será removido da lista : 
 uno fusca``
 
+- Vector
 
+A classe vetorial implementa o iterador List. Uma instância de Vector é uma matriz dinâmica, em que os elementos podem ser acessados ​​com índices. A diferença entre um Vector e um ArrayList é que os vetores são sincronizados.
 
+**Metodos utéis**
+-Remove	
 
+-removeAll	
+
+-removeElement	
+-removeRange	
+-retainAll	
+
+-set
+-setSize	
+-Size	
+-subList	
+
+-toArray	
+
+-toString	
+-trimToSize
 
 
 
