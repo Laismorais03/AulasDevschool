@@ -3,7 +3,11 @@
 
 ## List
 *A interface List é uma coleção do tipo lista, em que a ordem dos elementos é dado através de sua inserção dentro da lista.*
-                                                                 *Hierarquia*
+
+                                                               
+                                                               *Hierarquia*
+                                                               
+                                                               
  Na hierarquia do Java Collections o ``List`` é uma interface implementada na classes _ArrayList_, _LinkedList_ e na _Vector_ que também é extendida da classe _Stack_ .
  
 ![ScreenShot](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200811210521/Collection-Framework-1.png)
