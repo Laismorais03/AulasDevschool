@@ -8,7 +8,8 @@
 ![ScreenShot](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200811210521/Collection-Framework-1.png)
 
 ### Tipos de List
--ArrayList
+- ArrayList
+A ArrayList é uma classe que implementa a interface ``List`` , esta classe tem seus objetos arrays dinâmicos. O ArrayList implementa todos os métodos List e permite todos elementos até mesmo os nulos. Os objetos desta classe têm uma capacidade, que inicialmente igual ao tamanho, mas aumenta à medida que novos elementos são adicionados, ela não está sincronizado então varias unidades de controle de fluxo sequencial pode ser processada no sistema operacional.
 
 
 
