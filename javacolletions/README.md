@@ -71,23 +71,48 @@ A classe vetorial implementa o iterador List. Uma instância de Vector é uma ma
 **Metodos utéis**
 
 - Remove	
+E remove(int index): Exclui o elemento em determinado índice do vetor.
+Boolean remove(Object o):Exclui a primeira ocorrência do elemento fornecido do vetor. Se o elemento não estiver presente, nada acontece ao vetor
 
 - removeAll	
+Boolean removeAll(Collection< ?> c):Exclui todos os elementos do vetor que estão presentes na coleção fornecida.
+void removeAll Elements():Exclui todos os elementos do vetor, reduzindo assim ao tamanho zero.
 
 - removeElement	
+Boolean removeAll (collection <?> C):	Exclui todos os elementos do vetor que estão presentes na coleção fornecida.
+void removeAll Elements ():Exclui todos os elementos do vetor, reduzindo assim ao tamanho zero.
 
 - removeRange	
+Boolean removeElement (Object obj):	Remove a primeira ocorrência do elemento fornecido do vetor.
+void removeElementAt (índice interno):	Exclui o elemento no índice fornecido.
+
 - retainAll	
+	protected void removeRange (int fromIndex, int toIndex):Exclui todos os elementos do vetor no intervalo fornecido de fromIndex (inclusive), totoIndex (exclusivo).
 
 - set
+	E set(int index, E element):Define o valor em determinado índice com o novo elemento fornecido.
+Void set ElementAt(E obj, int index):Define os elementos fornecidos no índice fornecido.
+
 - setSize	
+Void setSize(int newSize):Define o tamanho dado para este vetor.
+
 - Size	
+int size():Retorna o número de elementos neste vetor ou o comprimento do vetor.
+
 - subList	
+List< E>subList(intfromIndex, inttoIndex):Retorna uma visualização ou subLista do vetor, variando de índice a índice.
 
 - toArray	
+Object[] toArray():Converte o vetor fornecido em uma matriz contendo todos os elementos do vetor na ordem especificada.
+< T> T[] toArray(T[] a):Retorna uma matriz do tipo especificado contendo todos os elementos do vetor.
 
 - toString	
+String toString():Retorna uma representação de string do vetor.
+
 - trimToSize
+	void trimToSize():Corta o vetor para acomodar o tamanho atual.
+
+**Exemplo**
 
 
 
@@ -95,12 +120,9 @@ A classe vetorial implementa o iterador List. Uma instância de Vector é uma ma
 
 
 
-
-
-
-
-
-
-
-
+**Resultado**
+``Vector v1 Contents:[]
+Vector v2 Contents:[10, 20, 30]
+Vector v3 Contents:[]
+Vector v4 Contents:[one, two]``
 
