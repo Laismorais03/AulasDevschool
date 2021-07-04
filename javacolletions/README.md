@@ -52,6 +52,8 @@ Ao contrário do ``ArrayList`` as buscas desta classe é linear e inserçóes e 
 
 
 **Exemplo**
+
+
 ![Screenshot](linkedlist.png)
 
 **Resultado**
