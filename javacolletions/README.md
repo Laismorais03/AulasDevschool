@@ -23,6 +23,7 @@ A ArrayList é uma classe que implementa a interface ``List`` , esta classe tem 
 - Método size – Informa o número de elementos que estão armazenados na estrutura.
 - Método trimToSize – Ajusta a capacidade do ArrayList de acordo com o número de elementos armazenados no momento.
 
+
 **Exemplo** 
 
 
@@ -44,12 +45,22 @@ A ArrayList é uma classe que implementa a interface ``List`` , esta classe tem 
 ``Tamanho atual do ArrayList: 2 itens
 O item "Sandalia" não está na lista``
 
+- LinkedList
 
 
+Ao contrário do ``ArrayList`` as buscas desta classe é linear e inserçóes e exclusões são rápidas. Já que implementa uma lista ligada, cada nó tem o seu dado e uma referência para o próximo nó. LinkedList é muito usada aplicações para exibir grande quantidade de inserções e exclusões.
 
 
+**Exemplo**
+![Screenshot](linkedlist.png)
 
+**Resultado**
 
+``Qual carro está na lista:
+Telas uno ford fusca``
+
+``Qual carro será removido da lista : 
+uno fusca``
 
 
 
