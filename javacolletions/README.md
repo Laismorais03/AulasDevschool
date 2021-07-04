@@ -69,23 +69,25 @@ uno fusca``
 A classe vetorial implementa o iterador List. Uma instância de Vector é uma matriz dinâmica, em que os elementos podem ser acessados ​​com índices. A diferença entre um Vector e um ArrayList é que os vetores são sincronizados.
 
 **Metodos utéis**
--Remove	
 
--removeAll	
+- Remove	
 
--removeElement	
--removeRange	
--retainAll	
+- removeAll	
 
--set
--setSize	
--Size	
--subList	
+- removeElement	
 
--toArray	
+- removeRange	
+- retainAll	
 
--toString	
--trimToSize
+- set
+- setSize	
+- Size	
+- subList	
+
+- toArray	
+
+- toString	
+- trimToSize
 
 
 
