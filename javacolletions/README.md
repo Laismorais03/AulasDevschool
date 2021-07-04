@@ -24,7 +24,7 @@ A ArrayList é uma classe que implementa a interface ``List`` , esta classe tem 
 - Método trimToSize – Ajusta a capacidade do ArrayList de acordo com o número de elementos armazenados no momento.
 
 **Exemplo**
-``
+<img src="arraylist" width="350" title="hover text">
 
 
 
