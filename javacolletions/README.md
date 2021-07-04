@@ -23,9 +23,21 @@ A ArrayList é uma classe que implementa a interface ``List`` , esta classe tem 
 - Método size – Informa o número de elementos que estão armazenados na estrutura.
 - Método trimToSize – Ajusta a capacidade do ArrayList de acordo com o número de elementos armazenados no momento.
 
-**Exemplo**
+**Exemplo** 
+
+
 ![Screenshot](arraylist.png)
 
+
+**Resultado**
+|Mostrar o conteúdo do ArrayList usando laço for convencional:
+ tenis Camisa
+Mostrando a lista de compras com o método mostrar: tenis Camisa
+Nova visualização da lista após adicionar nas compras: tenis Camisa Sandalia Chinelo
+Nova visualização da lista após remover frutas: Camisa Sandalia Chinelo
+Remover o segundo elemento da lista (índice 1): Camisa Chinelo
+Tamanho atual do ArrayList: 2 itens
+O item "Sandalia" não está na lista|
 
 
 
